@@ -66,7 +66,7 @@ The builder is based on the concept of MAN domain architecture since its purpose
 
 UML diagram
 
-![UML](http://url/to/img.png)
+![UML](/img/UML.png)
 
 Furthermore, the data flow diagram below describes how the information is distributed throughout the system’s components:
 
