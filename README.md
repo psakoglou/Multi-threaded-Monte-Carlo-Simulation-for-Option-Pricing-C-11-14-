@@ -72,7 +72,7 @@ Furthermore, the data flow diagram below describes how the information is distri
 
 Data flow diagram
  
-![Data-Flow](http://url/to/img.png)
+![Data-Flow](/img/data flow.png)
 
 # Complexity Analysis
 
@@ -101,7 +101,7 @@ To optimize the code, I used the following techniques:
 
 Sample results of this optimization are the following:
 
-![Performance](http://url/to/img.png)
+![Performance](/img/performanceMCApp.png)
 
 # Extreme scenarios and limitations
 
