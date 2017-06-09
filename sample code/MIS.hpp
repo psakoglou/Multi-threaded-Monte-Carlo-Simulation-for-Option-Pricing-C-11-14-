@@ -1,13 +1,11 @@
 /*
 *	Advanced C++11 / 14 with Multidisciplinary Applications
 *
-*	Level 7 - Final Project
-*
 *	Pavlos Sakoglou
 *
 *  ===================================================================================================================================================
 *
-*	Monte Carlo Option Pricing Application
+*	Monte Carlo Option Pricing Application - Management Information System class for system's data
 *
 */
 
