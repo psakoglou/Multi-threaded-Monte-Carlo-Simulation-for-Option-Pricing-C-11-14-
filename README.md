@@ -72,7 +72,7 @@ Furthermore, the data flow diagram below describes how the information is distri
 
 Data flow diagram
  
-![Data-Flow](/img/data flow.png)
+![Data-Flow](/img/dataflow.png)
 
 # Complexity Analysis
 
