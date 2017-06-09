@@ -1,5 +1,5 @@
 /*
-*	Advanced C++11 / 14 with Multidisciplinary Applications
+*	Advanced C++11/14 with Multidisciplinary Applications
 *
 *	Pavlos Sakoglou
 *
