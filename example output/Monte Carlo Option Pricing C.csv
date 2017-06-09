@@ -1,0 +1,53 @@
+**********************************************************************
+*
+* Final Project for QuantNet's Advanced C++11/C++14 Certificate 
+*
+* Monte Carlo Option Pricing 
+*
+* Pavlos Sakoglou 
+*
+
+
+************************** OUTPUT **************************
+
+
+*** Model Parameters ***
+
+1. RNG variate:,Mersenne Twister
+2. FDM Scheme:,Milstein Method
+3. Underlying derivative:,Knock-Out Call
+
+
+
+*** Simulation Results and Statistics ***
+
+MCS Option Price:,2.21411,[$]
+
+Mean Stock Price:,60.6806,[$]
+Max Stock Price:,122.197,[$]
+Min Stock Price:,31.8929,[$]
+
+Standard Deviation:,4.50203
+Standard Error:,0.0201337
+Exact Price:,2.13337,[$]
+Decision:,false
+
+Elapsed time of simulation:,51.5682 seconds
+
+
+
+*** Simulation input parameters ***
+
+Rate of Return:, 0.08,[%]
+Strike Price:,65,[$]
+Expiry Time:,0.25,[years]
+Stock Price:,60,[$]
+Volatility:,0.3,[%]
+
+NSIM:,50000
+NSteps:,150
+Option Upper Cap: 100
+
+
+***********************************************************
+

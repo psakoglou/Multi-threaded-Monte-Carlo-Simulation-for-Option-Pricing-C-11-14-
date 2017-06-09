@@ -1,0 +1,48 @@
+**********************************************************************
+*
+* Final Project for QuantNet's Advanced C++11/C++14 Certificate 
+*
+* Monte Carlo Option Pricing 
+*
+* Pavlos Sakoglou 
+*
+
+
+************************** OUTPUT **************************
+
+
+*** Model Parameters ***
+
+1. RNG variate: 		Mersenne Twister
+2. FDM Scheme: 			Milstein Method
+3. Underlying derivative: 	European Put
+
+
+
+*** Simulation Results and Statistics ***
+
+MCS Option Price: 	5.99642 [$]
+
+Mean Stock Price: 	60.6871	[$]
+Max Stock Price: 	123.64	[$]
+Min Stock Price: 	33.1729	[$]
+
+Standard Deviation: 	6.03635
+Standard Error: 	0.0269954
+Exact Price: 		5.84628 [$]
+Decision:		false
+
+*** Simulation input parameters ***
+
+Rate of Return: 0.08	[%]
+Strike Price: 	65	[$]
+Expiry Time: 	0.25	[years]
+Stock Price: 	60	[$]
+Volatility: 	0.3	[%]
+
+NSIM: 		50000
+NSteps: 	150
+
+
+*************************************************************************
+
