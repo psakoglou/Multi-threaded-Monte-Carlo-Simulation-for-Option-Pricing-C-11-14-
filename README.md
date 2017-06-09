@@ -61,7 +61,7 @@ The builder class servers as a mediator method that puts the whole process toget
 
 The motivation for a builder class is to keep the main() function cleaner. As for performance issues, we gain very little by implementing the functionality directly in main() without a mediator method. One would argue that the program becomes “heavier” with extra classes, however, the next-generation pattern is quite appropriate for such code design. Finally, the Builder provides a bye() method that indicates the end of the program, after the output print is completed.
 
-# Design and domain architecture 
+# Design and domain architectures
 
 The system architecture is based entirely on meta-programming and next generation pattern, where the data are interchanged between the classes via function wrappers, tuples and information containers, and direct calls of static and inline functions. Thus, there are no class hierarchies and the object creation and copying is kept at the minimum. 
 The builder is based on the concept of MAN domain architecture since its purpose is the object creation and data assembly between the system’s classes. The Pricer, however, is based on the concept of RAT, since it tracks and allocates information in run-time (optionally with fixed data) through the system. 
