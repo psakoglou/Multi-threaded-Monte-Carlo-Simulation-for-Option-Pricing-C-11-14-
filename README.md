@@ -69,5 +69,48 @@ Data flow diagram
  
 ![Data-Flow](http://url/to/img.png)
 
+# Complexity Analysis
+
+The algorithms that are used are all of linear or constant complexity, namely, for-loops, STL algorithms, function calls, etc.
+There are no recursive calls nowhere in the code, and thus the system’s total complexity is the sum of O(ni), i = 1, …, k; where k = number of algorithms and processes, excluding the simulation loops. That claim can be justified since all the algorithms we are using, i.e. clear(), max/min_element(), for_each(), etc. are all of linear complexity. To our favor, push_back() calls are of constant complexity.
+To that result, we estimate an O(NSIM) * O(NSteps) complexity for the simulation, and probably other processing factors that might cause delays. 
+Therefore, the aggregate complexity of our system is close to the following result:
+
+f(m,l)= a × O(1) + b × O(m) × O(l) + c * O(n) + error
+
+Where a, b, c, and error and real constants, and m and l are the number of simulations and steps respectively.
+
+# System Performance and Optimization
+
+The system performance is well-mannered for the underlying design. To achieve faster results, we need to hard code all the components in main(), but that won’t necessarily guarantee better performance, since there is a trade-off between multiple object creation and non-flexibility, and speed.
+
+To optimize the code, I used the following techniques:
+
+•	Switch-case instead of if-statements, since it breaks after a true-evaluated case and doesn’t check further.
+
+•	Static and inline functions (trade-off between time and space). Since this is an option pricing application, speed matters more than memory. Moreover, static prevents invocation of this pointer.
+
+•	Initializer lists and explicit constructors
+
+•	STL containers and algorithms
+
+Sample results of this optimization are the following:
+
+![Performance](http://url/to/img.png)
+
+# Extreme scenarios and limitations
+
+Depending the processing power and ram memory of the machine this application is going to run, there are limitations in use, for practical reasons. Although that theoretically the program can handle multiple threads, I do not advise to use this application for extravagant amount of iterations, since the containers will reach the limit and the program will crash. 
+
+However, for extremely big simulations, namely NSIM > 10,000,000 and NSteps > 5,000, it is advised to run through theTestPlainMC test file, which has limited output options, but is lighter in regards to memory and does not use containers for the option price fluctuations. The results will come faster and will be equally accurate. For ordinary use however, the BulderMC file is more convenient since it doesn’t require hard coding.
+
+# Output analysis
+
+Check the Ouput file in the repository for sample outputs in .txt and .csv file formats.
+
+
+
+
+
 
 
