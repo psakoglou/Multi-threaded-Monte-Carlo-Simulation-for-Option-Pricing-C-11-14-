@@ -13,7 +13,7 @@ In case the user wants to price multiple derivatives at once, the application pr
 
 Download the .exe file in your computer and then run it. Use a virtual machine in case you operate in Mac OS, or Wine for other operating systems than Windows: https://www.winehq.org/
 
-Since the code is for demonstration only, there are missing components of the application, thus you cannot compile the provided files in this repository, except the plain Monte Carlo file. 
+Since the code is for demonstration only, there are missing components of the application, thus you cannot compile all the provided files in this repository, but only the plain Monte Carlo file. 
 
 # System Components
 
