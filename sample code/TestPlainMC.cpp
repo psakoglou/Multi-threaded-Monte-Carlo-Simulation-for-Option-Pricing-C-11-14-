@@ -1,13 +1,11 @@
 /*
-*	Advanced C++11 / 14 with Multidisciplinary Applications
-*
-*	Level 7 - Final Project
+*	Advanced C++11/14 with Multidisciplinary Applications
 *
 *	Pavlos Sakoglou
 *
 *  ===================================================================================================================================================
 *
-*	Monte Carlo Option Pricing Application
+*	Monte Carlo Option Pricing Application - Plain procedural MC simulation for Option Pricing
 *
 */
 
@@ -16,6 +14,9 @@
 #include <algorithm>
 #include <chrono>
 
+// Boost Libraries Dependency!!!
+// Install Boost before you run
+// http://www.boost.org/
 #include <boost/random/normal_distribution.hpp>
 #include <boost/math/distributions.hpp> 
 
