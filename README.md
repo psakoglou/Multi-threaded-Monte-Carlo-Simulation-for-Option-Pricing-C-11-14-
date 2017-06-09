@@ -6,4 +6,14 @@ Overview of the Multi-threaded Monte Carlo Simulation Console App for approximat
 
 # Usage
 
+Download the .exe file in your computer and then run it. Use a virtual machine in case you operate in Mac OS, or Wine for other operating systems than Windows: https://www.winehq.org/
+
+Since the code is for demonstration only, there are missing components of the application, thus you cannot compile the provided files in this repository, except the plain Monte Carlo file. 
+
+# What are options?
+
+# How Monte Carlo Simulation Works?
+
+# What are the components of the application?
+
 
