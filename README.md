@@ -15,6 +15,8 @@ Download the .exe file in your computer and then run it. Use a virtual machine i
 
 Since the code is for demonstration only, there are missing components of the application, thus you cannot compile all the provided files in this repository, but only the plain Monte Carlo file. 
 
+Keep in mind that some the files have Boost Libraries dependencies and one should include the local Boost path on their computer.
+
 # System Components
 
 **FDM_SDE class**
