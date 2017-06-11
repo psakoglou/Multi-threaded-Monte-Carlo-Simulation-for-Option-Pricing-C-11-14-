@@ -1,6 +1,5 @@
 /*
-*	Advanced C++11/14 with Multidisciplinary Applications
-*
+*	© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
 *  ===================================================================================================================================================
