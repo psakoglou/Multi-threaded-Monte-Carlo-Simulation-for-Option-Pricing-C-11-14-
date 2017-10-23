@@ -2,10 +2,16 @@
 *	© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
-*  ===================================================================================================================================================
+*  ================================================================================================================
 *
 *	Monte Carlo Option Pricing Application - Management Information System class for system's data
 *
+*/
+
+/*   We can extend this application easily by exporting all simulation statistics into a database
+*    for later analysis and mining i.e. the decision making component could be mapped into {0, 1}. 
+*    Simply use/create getters for each class member and information you need, and use it in another
+*    public interface that pushes this information in a file (csv) or database.
 */
 
 // Multiple inclusion guards
