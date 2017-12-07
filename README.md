@@ -113,7 +113,7 @@ However, for extremely big simulations, namely NSIM > 10,000,000 and NSteps > 5,
 
 # Output analysis
 
-Check the Ouput file in the repository for sample outputs in .txt and .csv file formats.
+Check the Ouput file in the repository for sample outputs in .txt and .csv file formats
 
 
 
