@@ -2,7 +2,7 @@
 *	© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
-*  ===================================================================================================================================================
+*  ======================================================================
 *
 *	Monte Carlo Option Pricing Application - Output class
 *
@@ -79,7 +79,7 @@ public:
 
 		// Extract partially the Pricer output
 		std::vector<std::string> parameter_names	= std::get<3>(pricer_res);
-		OptionData option_data						= std::get<1>(pricer_res);
+		OptionData option_data				= std::get<1>(pricer_res);
 
 		std::cout << "\n\n************************** OUTPUT **************************\n\n";
 
