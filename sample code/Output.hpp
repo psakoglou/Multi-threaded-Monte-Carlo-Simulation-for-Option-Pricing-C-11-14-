@@ -12,6 +12,7 @@
 #ifndef OUTPUT_HPP
 #define OUTPUT_HPP
 
+// File stream library
 #include <fstream>
 
 #include "MIS.hpp"
