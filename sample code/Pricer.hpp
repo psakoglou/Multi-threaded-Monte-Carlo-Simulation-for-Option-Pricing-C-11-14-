@@ -29,12 +29,12 @@ using OptionData = std::tuple<double, double, double, double, double, unsigned l
 using PricerOutputMIS = std::tuple<double, OptionData, std::vector<double>, std::vector<double>, std::vector<std::string>>;
 
  // Alias for the output of Pricer, which is a tuple that holds all the necessary data for MIS and Output classes
-using PricerResults = std::tuple< double,						// Option price
-								  OptionData,					// OptionData
-								  unsigned long,				// NSteps (optionally, otherwise set to 0)
-								  std::vector<std::string>,		// Model parameter names
-								  double,						// In case of barrier option: upper cap
-								  double >;						// In case of barrier option: lower cap
+using PricerResults = std::tuple< double,			// Option price
+				  OptionData,			// OptionData
+				  unsigned long,		// NSteps (optionally, otherwise set to 0)
+				  std::vector<std::string>,	// Model parameter names
+				  double,			// In case of barrier option: upper cap
+				  double >;			// In case of barrier option: lower cap
 								   									  																	
 // Alias for a tuple that holds all the model information
 using ModelParameterTuple = std::tuple<RNGFunctionType, int, PayoffFunctionType>;
