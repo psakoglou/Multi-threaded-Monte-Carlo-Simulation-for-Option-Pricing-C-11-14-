@@ -8,7 +8,6 @@ The current application follows a classification logic, that is, it groups the m
 
 In case the user wants to price multiple derivatives at once, the application provides an extra feature that allows the user to choose once the model parameters and select multiple option contracts to price. The application saves the results of each pricing process, which will then be printed all together in the same way, by either printing in the console consecutively, or creating multiple files.
 
-
 # Usage
 
 Download the .exe file in your computer and then run it. Use a virtual machine in case you operate in Mac OS, or Wine for other operating systems than Windows: https://www.winehq.org/
@@ -114,10 +113,3 @@ However, for extremely big simulations, namely NSIM > 10,000,000 and NSteps > 5,
 # Output analysis
 
 Check the Ouput file in the repository for sample outputs in .txt and .csv file formats
-
-
-
-
-
-
-
