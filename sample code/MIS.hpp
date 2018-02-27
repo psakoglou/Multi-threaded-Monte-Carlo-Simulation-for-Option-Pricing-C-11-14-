@@ -2,7 +2,7 @@
 *	© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
-*  ================================================================================================================
+*  ==============================================================================================================
 *
 *	Monte Carlo Option Pricing Application - Management Information System class for system's data
 *
