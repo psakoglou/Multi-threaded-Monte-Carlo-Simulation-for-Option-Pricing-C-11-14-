@@ -2,7 +2,7 @@
 *	© Superharmonic Technologies
 *	Pavlos Sakoglou
 *
-*  ==============================================================================
+*  =============================================================================
 *
 *	Monte Carlo Option Pricing Application - Option Pricer class
 *
